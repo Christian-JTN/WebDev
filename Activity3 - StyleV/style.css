@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    font-family: cursive;
+}
+
+body{
+    background-color: darkmagenta;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+main{
+    min-height: 400px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h1{
+    color: rgb(55, 18, 90);
+}
+
+span{
+    color: fuchsia;
+    font-weight: 700;
+}
+
+a{
+    display:inline-block;
+}
+#home, #about{
+    width: 70px;
+}
+
+#fb{
+    width: 100px;
+}
+
+a{
+    margin-right: 20px;
+    border: rgb(255, 0, 255) solid 1px;
+    border-color: rgb(84, 7, 78);
+    border-style: ridge;
+    border-width: 7px;
+    border-radius: 9px;
+    padding: 4px;
+}
+a.active{
+    background-color: #7c63df;
+}
+a.active2{
+    background-color: #7c63df;
+}
+a.active3{
+    background-color: #7c63df;
+}
+a.about4{
+    background-color: #7c63df;
+}
+a:hover{
+    background-color: #241078;
+}
