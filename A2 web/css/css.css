@@ -1,0 +1,112 @@
+
+body {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: green;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.input-con {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.error {
+    color: rgb(255, 0, 0);
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.button-wrapper {
+    text-align: right;
+}
+
+#saveButton {
+    padding: 8px 16px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#clearButton:hover {
+    background-color: darkgreen;
+}
+
+#clearButton {
+    padding: 8px 16px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#clearButton:hover {
+    background-color: darkgreen;
+}
+
+.utang-list h2 {
+    margin-top: 30px;
+    color: #222;
+}
+
+#nakautangs {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#nakautangs li {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 5px solid green;
+    border-radius: 5px;
+}
+
+.empty-list {
+    font-style: italic;
+    color: gray;
+}
